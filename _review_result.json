@@ -1,0 +1,65 @@
+{
+  "app": "morph_gate",
+  "language": "swift",
+  "status": "completed",
+  "score": 35.0,
+  "files_reviewed": 2,
+  "issues": [],
+  "timestamp": "2026-06-22T12:29:39.222808",
+  "reviewed_files": [
+    {
+      "file": "Package.swift",
+      "score": 35.0,
+      "criteria": {
+        "syntax": {
+          "score": 0.0,
+          "weight": 30
+        },
+        "type_hints": {
+          "score": 50.0,
+          "weight": 25
+        },
+        "complexity": {
+          "score": 50.0,
+          "weight": 20
+        },
+        "documentation": {
+          "score": 50.0,
+          "weight": 15
+        },
+        "testability": {
+          "score": 50.0,
+          "weight": 10
+        }
+      },
+      "report": "[REVIEW REPORT]\n\nStatus: NEEDS_FIX\nTotal Score: 35.0/100\n\nCriteria Breakdown:\n  Syntax: 0% (weight: 30%)\n  Type_hints: 50% (weight: 25%)\n  Complexity: 50% (weight: 20%)\n  Documentation: 50% (weight: 15%)\n  Testability: 50% (weight: 10%)\n\nIssues Found:\n  [CRITICAL] Syntax Error: Line 1: invalid syntax\n\nRecommendation: Fix issues before approval\n"
+    },
+    {
+      "file": "FlutterGeneratedPluginSwiftPackage.swift",
+      "score": 35.0,
+      "criteria": {
+        "syntax": {
+          "score": 0.0,
+          "weight": 30
+        },
+        "type_hints": {
+          "score": 50.0,
+          "weight": 25
+        },
+        "complexity": {
+          "score": 50.0,
+          "weight": 20
+        },
+        "documentation": {
+          "score": 50.0,
+          "weight": 15
+        },
+        "testability": {
+          "score": 50.0,
+          "weight": 10
+        }
+      },
+      "report": "[REVIEW REPORT]\n\nStatus: NEEDS_FIX\nTotal Score: 35.0/100\n\nCriteria Breakdown:\n  Syntax: 0% (weight: 30%)\n  Type_hints: 50% (weight: 25%)\n  Complexity: 50% (weight: 20%)\n  Documentation: 50% (weight: 15%)\n  Testability: 50% (weight: 10%)\n\nIssues Found:\n  [CRITICAL] Syntax Error: Line 1: invalid syntax\n\nRecommendation: Fix issues before approval\n"
+    }
+  ]
+}
